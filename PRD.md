@@ -19,13 +19,13 @@ Sahayak is an AI-powered companion designed for teachers who juggle multiple gra
 
 ## 3. Goals
 
-• **Goals**
+* **Goals**
 
   1. Empower teachers to create/curate learning assets in minutes, not hours.
   2. Support multiple Indian languages out-of-the-box.
   3. Offer a single, low-friction dashboard that works on desktop and mobile browsers.
 
-<!-- • **Non-Goals (MVP)**
+<!-- * **Non-Goals (MVP)**
   – Deep analytics at district/school level.
   – Advanced cost optimisation or large-scale performance tuning.
   – Full offline functionality. -->
@@ -43,12 +43,12 @@ Sahayak is an AI-powered companion designed for teachers who juggle multiple gra
 ## 5. User Personas
 
 1. **Primary – Multi-grade Teacher (Priya, 32)**
-   • Teaches Grades 3-5 in a rural government school.
-   • Has basic smartphone and occasional computer lab access.
-   • Limited prep time (~2 hrs/week outside class).
+   * Teaches Grades 3-5 in a rural government school.
+   * Has basic smartphone and occasional computer lab access.
+   * Limited prep time (~2 hrs/week outside class).
 
 2. **Secondary – Head Teacher/Cluster Coordinator**
-   • Oversees academic quality & may want summary analytics.
+   * Oversees academic quality & may want summary analytics.
 
 ---
 
@@ -60,9 +60,9 @@ Sahayak is an AI-powered companion designed for teachers who juggle multiple gra
 4. Chooses Grade 3-5 differentiation.
 5. Clicks “Generate”.
 6. System returns:
-   • Worksheet PDFs (grade-wise)
-   • Google Slides deck covering the concept
-   • Short answer key saved to knowledge base
+   * Worksheet PDFs (grade-wise)
+   * Google Slides deck covering the concept
+   * Short answer key saved to knowledge base
 7. Priya shares links/prints materials for class.
 
 ---
@@ -75,8 +75,8 @@ Sahayak is an AI-powered companion designed for teachers who juggle multiple gra
 2. **Knowledge Base Uploads:** PDF/image ingestion → embeddings stored (Mem0 + vector DB).
 3. **Chat-based Agent:** quick Q&A using the knowledge base + Gemini.
 4. **Content Generation:**
-   • Hyper-local text/story creation.
-   • Differentiated worksheet generator (single concept).
+   * Hyper-local text/story creation.
+   * Differentiated worksheet generator (single concept).
 5. **Visual Aid Creation:** auto-generated Google Slides deck via Slides API.
 6. **Assessment Lite:** generate 5-question MCQ quiz + answer key.
 7. **Basic Sharing:** download PDFs and auto-share Google Slides link.
@@ -106,10 +106,10 @@ E. **WhatsApp / SMS Distribution** links for low-bandwidth sharing.
 
 ## 9. High-Level Architecture (Light)
 
-• **Frontend:** React + Firebase Hosting.
-• **Backend:** FastAPI server on Cloud Run, housing Gemini calls & Slide/Docs API orchestration.
-• **Auth:** Google Identity (OAuth) → Firebase Auth.
-• **Vector Store:** Open-source vector DB (e.g., Qdrant) + Mem0 for memory.
+* **Frontend:** React + Firebase Hosting.
+* **Backend:** FastAPI server on Cloud Run, housing Gemini calls & Slide/Docs API orchestration.
+* **Auth:** Google Identity (OAuth) → Firebase Auth.
+* **Vector Store:** Open-source vector DB (e.g., Qdrant) + Mem0 for memory.
 
 ---
 
@@ -145,6 +145,6 @@ E. **WhatsApp / SMS Distribution** links for low-bandwidth sharing.
 
 ## 13. Appendix – References
 
-• Google Slides API Overview  
-• Google Docs API Create Document  
-• Mem0 open-source memory framework
+* Google Slides API Overview  
+* Google Docs API Create Document  
+* Mem0 open-source memory framework
